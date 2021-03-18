@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -90,5 +89,5 @@
         <li>Anime</li>
     </ul>
     <hr>
-</body>
-</html>
+    </body>
+    </html>
