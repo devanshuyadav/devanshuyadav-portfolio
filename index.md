@@ -89,5 +89,5 @@
         <li>Anime</li>
     </ul>
     <hr>
-    </body>
-    </html>
+</body>
+</html>
