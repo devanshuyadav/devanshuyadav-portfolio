@@ -19,7 +19,6 @@
     <h3>Education:</h3>
     CBSE senior secondary degree<em> (aggregate 95%)</em><br>
     Student <em>Vellore Institute of Technology, Btech CSE programme</em>
-    </p>
     <!-- experience-->
     <hr>
     <table cellspacing=10>
@@ -88,6 +87,4 @@
         <li>Designing</li>
         <li>Anime</li>
     </ul>
-    <hr>
-</body>
-</html>
+    <hr></body></html>
