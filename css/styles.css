@@ -61,7 +61,8 @@ hr {
 }
 .mountain {
   margin-bottom: 0;
-  padding-bottom:0;
+  padding-bottom: 0;
+  width: 60%;
 }
 a {
   color: #11999e;
@@ -130,4 +131,5 @@ a {
 }
 .copyright {
   color: #eaf6f6;
+  text-decoration: none;
 }
