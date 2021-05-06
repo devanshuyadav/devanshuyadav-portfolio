@@ -1,2 +1,2 @@
-# devanshuyadav-portfolio
-My Portfolio website - A side project for Web Development Courses.
+# vaimalya
+Project for Swachh Bharata Mission
