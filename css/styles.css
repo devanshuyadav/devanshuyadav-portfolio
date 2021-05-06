@@ -199,7 +199,7 @@ li:after {
 }
 
 /* front end bar */
-.progress-bar:hover li.frontend:after {
+.progress-bar li.frontend:after {
   animation-name: frontend;
   animation-delay: 0.1s;
   animation-play-state: paused;
@@ -218,7 +218,7 @@ li:after {
 }
 
 /* ml bar */
-.progress-bar:hover li.ml:after {
+.progress-bar li.ml:after {
   animation-name: ml;
   animation-delay: 0.2s;
   animation-play-state: paused;
@@ -237,7 +237,7 @@ li:after {
 }
 
 /* design bar */
-.progress-bar:hover li.design:after {
+.progress-bar li.design:after {
   animation-name: design;
   animation-delay: 0.3s;
   animation-play-state: paused;
