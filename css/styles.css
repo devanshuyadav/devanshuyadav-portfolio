@@ -141,7 +141,8 @@ a {
 /* progress bar */
 .progress-bar {
   margin: 7% auto;
-  width: 50%;
+  padding: 50px 100px;
+  width: 60%;
 }
 li {
   position: relative;
@@ -173,12 +174,19 @@ li:after {
   height: 10px;
   background-color: #66bfbf;
   border-radius: 100px;
-  animation: 2s ease forwards;
+  animation: 0.8s ease-in-out normal forwards;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
 }
 
 /* programming-bar */
-li.programming:after {
+.progress-bar li.programming:after {
   animation-name: programming;
+  animation-delay: 0s;
+  animation-play-state: paused;
+}
+.progress-bar:hover li.programming:after {
+  animation-play-state: running;
 }
 
 @keyframes programming {
@@ -186,13 +194,18 @@ li.programming:after {
     width: 80%;
   }
   50% {
-    width: 0;
+    width: 90%;
   }
 }
 
 /* front end bar */
-li.frontend:after {
+.progress-bar:hover li.frontend:after {
   animation-name: frontend;
+  animation-delay: 0.1s;
+  animation-play-state: paused;
+}
+.progress-bar:hover li.frontend:after {
+  animation-play-state: running;
 }
 
 @keyframes frontend {
@@ -200,27 +213,37 @@ li.frontend:after {
     width: 70%;
   }
   50% {
-    width: 0;
+    width: 80%;
   }
 }
 
 /* ml bar */
-li.ml:after {
+.progress-bar:hover li.ml:after {
   animation-name: ml;
+  animation-delay: 0.2s;
+  animation-play-state: paused;
+}
+.progress-bar:hover li.ml:after {
+  animation-play-state: running;
 }
 
 @keyframes ml {
-  to {
+  100% {
     width: 40%;
   }
   50% {
-    width: 0;
+    width: 50%;
   }
 }
 
 /* design bar */
-li.design:after {
+.progress-bar:hover li.design:after {
   animation-name: design;
+  animation-delay: 0.3s;
+  animation-play-state: paused;
+}
+.progress-bar:hover li.design:after {
+  animation-play-state: running;
 }
 
 @keyframes design {
@@ -228,6 +251,6 @@ li.design:after {
     width: 90%;
   }
   50% {
-    width: 0;
+    width: 100%;
   }
 }
